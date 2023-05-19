@@ -1,0 +1,69 @@
+h1{
+ text-align: center;
+ color:#d3229e
+}
+
+h2{
+  font-style:initial;
+  color: rgba(16, 161, 81, 0.918);
+}
+
+body
+
+{
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://1.bp.blogspot.com/-Rq54evKbM0k/XpToi0Hv50I/AAAAAAAAA-8/bcC5ZkQJ_T4jRkWIdN7to6_FObs3ZYsPgCLcBGAsYHQ/s1600/ayudar.jpg);
+}
+div{
+  padding: 50px 55px;
+ 
+  text-align: center;
+  width: 340px;
+  color: #770555;
+}
+label{
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom:15px;
+}
+input{
+  padding: 20px 25px;
+  border-radius:25px;
+  margin-bottom: 20px;
+  background-color:antiquewhite;
+  border:2px solid 
+
+}
+.boton{
+
+  font-size: 16px;
+  color:rgb(10, 10, 10);
+  border:0;
+  border-radius: 25px;
+  background-color: rgb(236, 47, 173);
+  text-align:center;
+  cursor:pointer;
+}
+.container{
+width: max-content;
+height: max-content;
+background-size: center;
+padding: 0px 5px;
+margin: 10px 0;
+display: inline-block;
+border: 8 px solid rgba(20, 18, 18, 0.57);
+border-radius: 10px;
+background-color:rgba(233, 159, 217, 0.726);
+}
+
+.gatito{
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Proyecto Laboraratoria</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+  
+<div>
+  <h1>FUNDACIÓN SONRISAS</h1>
+<h2>¡Estas a un paso de realizar tu donacion!</h2>
+
+<h5>Por favor Ingresa los datos de tu tarjeta</h5>
+
+  <label>NOMBRE DEL PROPIETARIO:</label><br>
+  <input type="text" placeholder="Nombre completo">
+  <br>
+
+
+  <br><label>NUMERO DE TARJETA:</label><br>
+<input type="text" id="numeroTAR" class="numTARJETA" maxlength="16" pattern="[0-9]+" placeholder="#### #### #### 1234" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)">
+</div>
+ 
+ 
+ <input class="boton" type="submit" id="validar" value="Validar">
+
+</div>
+
+
+          <main></main>
+          <footer></footer>
+          <script src="index.js" type="module"></script>
+
+</body>
+
 </html>
+        
